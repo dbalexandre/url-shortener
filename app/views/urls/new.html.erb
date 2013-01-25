@@ -1,0 +1,12 @@
+<%= form_errors(@url) %>
+
+<%= form_for @url, :url => new_url_path do |f| %>
+  <p>
+    <%= f.label :url, t("form.labels.url.url") %>
+    <%= f.text_field :url %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

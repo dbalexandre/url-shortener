@@ -13,6 +13,9 @@ end
 
 group :development, :test do
   gem "rspec-rails"
+  gem "capybara"
+  gem "factory_girl"
+  gem "factory_girl-preload"
   gem "pry"
   gem "awesome_print"
 end

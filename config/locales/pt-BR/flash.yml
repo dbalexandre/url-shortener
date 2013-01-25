@@ -1,0 +1,6 @@
+pt-BR:
+
+  flash:
+    urls:
+      create:
+        notice: "Aqui está sua URL encurtada!"
