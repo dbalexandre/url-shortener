@@ -1,0 +1,3 @@
+== Simple URL Shortener
+
+built just to play more with RSpec.
